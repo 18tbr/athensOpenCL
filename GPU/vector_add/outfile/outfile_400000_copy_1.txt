@@ -1,0 +1,17 @@
+
+Usage : <executable> <size of matrix, default 256000> <mode : copy or map, default map> <workgroup size, default 4>
+
+Vector Size : 400000
+Mode : copy
+Workgroup size : 1
+OpenCL took 46867 ms to compile the code and create the kernel.
+Generating random vectors
+Random vector generation took 152033 ms to run.
+Running vector addition on CPU
+CPU took : 4796
+Time to get the vectors : 4292
+GPU took : 1910
+Reading time : 4944
+GPU computation succeeded.
+Freeing time : 233
+Total execution time : 222228 cycles

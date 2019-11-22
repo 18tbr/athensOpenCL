@@ -1,0 +1,18 @@
+
+Usage : <executable> <size of matrix, default 256> <mode : copy or map, default map> <workgroup size, default 4>
+
+Square Matrix Size : 200 x 200
+Mode : map
+Workgroup size : 2
+OpenCL took 53307 ms to compile the code and create the kernel.
+Time to get the input : 380
+Generating random matrix
+Random matrix generation took 14898 ms to run.
+Running matrix multiplication on CPU
+CPU took : 23835
+Running matrix multiplication on GPU.
+GPU took : 891
+Reading time : 235
+GPU computation succeeded.
+Freeing time : 243
+Total execution time : 98181 cycles
